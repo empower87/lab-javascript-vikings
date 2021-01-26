@@ -1,0 +1,14 @@
+// Create a folder called .vscode and save this file in there as launch.json
+// It should look like this: project_directory/.vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch Current Opened File",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${file}"
+    },
+  ]
+}
